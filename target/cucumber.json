@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I enter to the application",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create contact",
+        "description": "",
+        "id": "create-a-new-contact-and-edit-the-name-once-is-created;create-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 6501100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateUpdateSteps.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I click in contacts",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click \u0027+\u0027 button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I see form to create a contact",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I enter the information required to create a contact",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I validate the contact is created",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I enter to the application",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Create and Edit contact",
+        "description": "",
+        "id": "create-a-new-contact-and-edit-the-name-once-is-created;create-and-edit-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 21400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateUpdateSteps.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I click in contacts",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "I click \u0027+\u0027 button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I see form to create a contact",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter the information required to create a contact",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I validate the contact is created",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "I click in edit contact",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "I enter all the information required to edit contact",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "I validate the contact is updated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new contact and edit the name once is created",
+    "description": "Data:\r\nFirst Name: Bring\r\nLast Name: Digital\r\nMobile Number: +351911111111\r\nChange to: Other\r\nPhone: +351911111111\r\nChange to: Other fax\r\nEmail: Sonia.pereira@bringglobal.com\r\nChange to: Work",
+    "id": "create-a-new-contact-and-edit-the-name-once-is-created",
+    "keyword": "Feature",
+    "uri": "feature/contact.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 140651300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "We are a user",
+            "match": {
+              "location": "CreateUpdateSteps.we_are_a_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7078500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "We enter to application",
+            "match": {
+              "location": "CreateUpdateSteps.we_enter_to_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create contact",
+        "description": "",
+        "id": "test;create-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 12000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateUpdateSteps.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9642100,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.base/java.util.Objects.requireNonNull(Objects.java:208)\r\n\tat org.openqa.selenium.support.ui.FluentWait.\u003cinit\u003e(FluentWait.java:106)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:85)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.\u003cinit\u003e(WebDriverWait.java:45)\r\n\tat com.bring.CreateContact.create(CreateContact.java:11)\r\n\tat com.steps.CreateUpdateSteps.we_make_login_with_user_and_password(CreateUpdateSteps.java:43)\r\n\tat ✽.When we make login with user and password(feature/hola.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "we make login with user and password",
+            "match": {
+              "location": "CreateUpdateSteps.we_make_login_with_user_and_password()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "First Name: Bring\r\nLast Name: Digital\r\nMobile Number: +351911111111\r\nChange to: Other\r\nPhone: +351911111111\r\nChange to: Other fax\r\nEmail: Sonia.pereira@bringglobal.com\r\nChange to: Work",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "feature/hola.feature"
+  }
+]

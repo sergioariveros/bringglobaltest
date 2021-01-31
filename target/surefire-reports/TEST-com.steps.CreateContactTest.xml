@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="0" name="com.steps.CreateContactTest" time="0.159" errors="2" skipped="17">
+  <properties>
+    <property name="idea.version" value="2020.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Users\sergio.riveros\.jdks\openjdk-15.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sergio.riveros\IdeaProjects\BringTestSergio"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sergio.riveros\IdeaProjects\BringTestSergio"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SERGIO~1.RIV\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\sergio.riveros\.jdks\openjdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\sergio.riveros\Documents\Instaladores\docfx;C:\Users\sergio.riveros\AppData\Local\Microsoft\WindowsApps;C:\Users\sergio.riveros\.dotnet\tools;C:\Users\sergio.riveros\Documents\Instaladores\docfx;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sergio.riveros"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="sergio.riveros"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3 test"/>
+    <property name="java.home" value="C:\Users\sergio.riveros\.jdks\openjdk-15.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Create contact" name="Given I enter to the application" time="0.005">
+    <skipped/>
+    <system-out>Feature: Create a new contact and edit the name once is created
+  Data:
+  First Name: Bring
+  Last Name: Digital
+  Mobile Number: +351911111111
+  Change to: Other
+  Phone: +351911111111
+  Change to: Other fax
+  Email: Sonia.pereira@bringglobal.com
+  Change to: Work
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="When I click in contacts" time="0.007">
+    <skipped/>
+    <system-out>
+  Background:                        &amp;#27;[90m# feature/contact.feature:12&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI enter to the application&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="And I click &apos;+&apos; button" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="Then I see form to create a contact" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="When I enter the information required to create a contact" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="Then I validate the contact is created" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="Scenario: Create contact" time="0.019">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="Scenario: Create contact" time="0.019"/>
+  <testcase classname="Scenario: Create and Edit contact" name="Given I enter to the application" time="0.002">
+    <skipped/>
+    <system-out>
+  Scenario: Create contact                                    &amp;#27;[90m# feature/contact.feature:15&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mI click in contacts&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI click &apos;+&apos; button&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mI see form to create a contact&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mI enter the information required to create a contact&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mI validate the contact is created&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="When I click in contacts" time="0.005">
+    <skipped/>
+    <system-out>
+  Background:                        &amp;#27;[90m# feature/contact.feature:12&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI enter to the application&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="And I click &apos;+&apos; button" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="Then I see form to create a contact" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="When I enter the information required to create a contact" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="Then I validate the contact is created" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="When I click in edit contact" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="And I enter all the information required to edit contact" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="Then I validate the contact is updated" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="Scenario: Create and Edit contact" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Create and Edit contact" name="Scenario: Create and Edit contact" time="0.008"/>
+  <testcase classname="Scenario: Create contact" name="Given We are a user" time="0"/>
+  <testcase classname="Scenario: Create contact" name="And We enter to application" time="0"/>
+  <testcase classname="Scenario: Create contact" name="When we make login with user and password" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+	at com.bring.CreateContact.create(CreateContact.java:11)
+	at com.steps.CreateUpdateSteps.we_make_login_with_user_and_password(CreateUpdateSteps.java:43)
+	at ✽.When we make login with user and password(feature/hola.feature:16)
+</error>
+    <system-out>
+  Background:                   &amp;#27;[90m# feature/hola.feature:11&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mWe are a user&amp;#27;[0m         &amp;#27;[90m# CreateUpdateSteps.we_are_a_user()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mWe enter to application&amp;#27;[0m &amp;#27;[90m# CreateUpdateSteps.we_enter_to_application()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Create contact" name="Scenario: Create contact" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+	at com.bring.CreateContact.create(CreateContact.java:11)
+	at com.steps.CreateUpdateSteps.we_make_login_with_user_and_password(CreateUpdateSteps.java:43)
+	at ✽.When we make login with user and password(feature/hola.feature:16)
+</error>
+  </testcase>
+</testsuite>

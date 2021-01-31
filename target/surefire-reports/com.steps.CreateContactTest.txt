@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.steps.CreateContactTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 2, Skipped: 17, Time elapsed: 0.49 sec <<< FAILURE!
+When we make login with user and password(Scenario: Create contact)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.bring.CreateContact.create(CreateContact.java:11)
+	at com.steps.CreateUpdateSteps.we_make_login_with_user_and_password(CreateUpdateSteps.java:43)
+	at ✽.When we make login with user and password(feature/hola.feature:16)
+
+Scenario: Create contact  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.bring.CreateContact.create(CreateContact.java:11)
+	at com.steps.CreateUpdateSteps.we_make_login_with_user_and_password(CreateUpdateSteps.java:43)
+	at ✽.When we make login with user and password(feature/hola.feature:16)
+

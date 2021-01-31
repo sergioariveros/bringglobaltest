@@ -1,0 +1,7 @@
+com\bring\EditContact.class
+com\steps\CreateContactTest.class
+com\bring\base.class
+com\steps\CreateUpdateSteps.class
+com\utils\loader.class
+com\bring\CreateContact.class
+CreateAndEditContactTest.class
