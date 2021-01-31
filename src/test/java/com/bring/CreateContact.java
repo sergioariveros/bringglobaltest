@@ -11,6 +11,7 @@ import java.util.List;
 
 public class CreateContact extends base{
 
+    // Identification of the elements in the page
     MobileElement iconPhoto = (MobileElement) driver.findElementById("com.android.contacts:id/photo_icon");
     MobileElement txtFirstName = (MobileElement) driver.findElementByXPath("//android.widget.LinearLayout[@resource-id='com.android.contacts:id/editors']/android.widget.EditText[1]");
     MobileElement txtLastName = (MobileElement) driver.findElementByXPath("//android.widget.LinearLayout[@resource-id='com.android.contacts:id/editors']/android.widget.EditText[2]");
@@ -23,8 +24,8 @@ public class CreateContact extends base{
     MobileElement buttonSave = (MobileElement) driver.findElementById("com.android.contacts:id/editor_menu_save_button");
     MobileElement buttonEdit = (MobileElement) driver.findElementByAccessibilityId("Edit");
 
-
-
+    // Actions executed from the steps definitions
+    
     public void clickEditContact(){
         WebDriverWait wait = new WebDriverWait(driver, 60);
         wait.until(ExpectedConditions.visibilityOf(buttonEdit));
@@ -46,6 +47,7 @@ public class CreateContact extends base{
 
     public void selectImage(){
         WebDriverWait wait = new WebDriverWait(driver, 60);
+        // As these actions occurs in a different page is neccesary to declare the elements inside the action (just because there is not time to create each page/frame)
         MobileElement imgFirst = (MobileElement) driver.findElementByXPath("com.google.android.apps.photos:id/image");
         wait.until(ExpectedConditions.visibilityOf(imgFirst));
         imgFirst.click();
