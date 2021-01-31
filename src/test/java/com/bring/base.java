@@ -14,8 +14,6 @@ public class base {
     public static AppiumDriverLocalService service;
     public static AndroidDriver<WebElement> driver;
 
-
-
     public void init() throws Exception {
 
         // Definition of the capabilities
@@ -24,11 +22,10 @@ public class base {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("appPackage", "com.android.contacts");
         capabilities.setCapability("appActivity","com.android.contacts.activities.PeopleActivity");
-
+        
+        // Ininitialization of the driver base on the capabilities and the istance of Appium
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
-
-
 
     public void tearDown() {
         if(driver != null) {
